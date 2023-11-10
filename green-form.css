@@ -1,0 +1,55 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 1em;
+    border-radius: 2em;
+    width:45vw;
+    height: fit-content;
+    padding-bottom: 5em;
+    background-color: rgb(11, 185, 11);
+}
+.step{
+    margin-top:1.5em;
+    margin-bottom: 0.7em;
+    margin-left: 2em;
+    color:rgb(22, 95, 22);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.step-form{
+    align-self:center;
+    border: 0.2em solid white;
+    border-radius: 0.2em;
+    display: flex;
+    align-items: center;
+    padding-left: 0.6em;
+    background-color: rgb(132, 206, 132);
+    width: 85%;
+    height: 3em;
+    margin-bottom: 0.3em;
+}
+label{
+    width:4em;
+}
+input{
+    margin-left: 5em;
+    width: 60%;
+    height:80%;
+    border-radius: 1em;
+}
+.address-form{
+    height: 10em;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1em;
+}
+.address-input {
+    height: 8em;
+  }
+input[type = "radio"]
+{
+    margin-left: 2em;
+    width: fit-content;
+    height: 1em;
+}
